@@ -13,62 +13,69 @@
 <body>
 
     <div class="container">
-        <form action="">
+        <div class="formulario">
+            <form>
 
-            <div class="form-group row">
-                <label for="noControl" class="col-sm-2 col-form-label">No. Control</label>
-                
-                <div class="col-auto">
-                    <input type="text" class="form-control" id="noControl" required>
-                </div>
-                <label for="mensajeError" class="col-sm-2 col-form-label" id="mensajeError"></label>
-            </div>
+                <div class="form-group row">
+                    <label for="noControl" class="col-sm-2 col-form-label">No. Control</label>
 
+                    <div class="col-auto">
 
-            <div class="form-group row">
-                <label for="nombre" class="col-sm-2 col-form-label">Nombre(s)</label>
-                <div class="col-sm-10">
-                    <input type="text" class="form-control" id="nombre" required>
-                </div>
-            </div>
-            <div class="form-group row">
-                <label for="aPaterno" class="col-sm-2 col-form-label">Apellido Paterno</label>
-                <div class="col-sm-10">
-                    <input type="text" class="form-control" id="aPaterno" required>
+                        <input type="text" class="form-control" id="noControl">
+
+                    </div>
+
+                    <label class="form-group row row-form-label mensajes" id="mensajeError"></label>
+
                 </div>
 
-            </div>
-            <div class="form-group row">
-                <label for="aMaterno" class="col-sm-2 col-form-label">Apellido Materno</label>
-                <div class="col-sm-10">
-                    <input type="text" class="form-control" id="aMaterno" required>
+
+                <div class="form-group row">
+                    <label for="nombre" class="col-sm-2 col-form-label">Nombre(s)</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="nombre">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="aPaterno" class="col-sm-2 col-form-label">Apellido Paterno</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="aPaterno">
+                    </div>
+
+                </div>
+                <div class="form-group row">
+                    <label for="aMaterno" class="col-sm-2 col-form-label">Apellido Materno</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="aMaterno">
+                    </div>
+
+                </div>
+                <div class="form-group row">
+                    <label for="correo" class="col-sm-2 col-form-label">Correo Electronico</label>
+                    <div class="col-sm-10">
+                        <input type="email" class="form-control" id="correo">
+                    </div>
+
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="fecha">Fecha de nacimiento</label>
+                        <input type="date" class="form-control " id="fecha">
+                    </div>
+                    <div class="form-group col-md-6 auto">
+                        <label for="edad">Edad</label>
+                        <input type="text" class="form-control " id="edad" readonly>
+                    </div>
+                    <label class="form-group row row-form-label mensajes" id="mensajeErrorFaltantes"></label>
                 </div>
 
-            </div>
-            <div class="form-group row">
-                <label for="correo" class="col-sm-2 col-form-label">Correo Electronico</label>
-                <div class="col-sm-10">
-                    <input type="email" class="form-control" id="correo" required>
+                <div class="form-group row">
+                    <div class="col-sm-10">
+                        <button type="submit" class="btn btn-primary" id="enviar" onclick="return false">Enviar</button>
+                    </div>
                 </div>
-
-            </div>
-            <div class="form-row">
-                <div class="form-group col-md-6">
-                    <label for="fecha">Fecha de nacimiento</label>
-                    <input type="date" class="form-control " id="fecha">
-                </div>
-                <div class="form-group col-md-6 auto">
-                    <label for="edad">Edad</label>
-                    <input type="text" class="form-control " id="edad" readonly>
-                </div>
-            </div>
-
-            <div class="form-group row">
-                <div class="col-sm-10">
-                    <button type="submit" class="btn btn-primary" id="enviar">Enviar</button>
-                </div>
-            </div>
-        </form>
+            </form>
+        </div>
 
     </div>
 
