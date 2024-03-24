@@ -246,26 +246,26 @@ correo_elemento.addEventListener("keydown", (e) => {
 });
 
 
-aPaterno_elemento.addEventListener("keydown", (e) => {
-  if (e.key === "Tab") {
-    verificarNombre();
-    contador--;
-  }
-});
+//aPaterno_elemento.addEventListener("keydown", (e) => {
+//  if (e.key === "Tab") {
+ //   verificarNombre();
+ //   contador--;
+ // }
+//});
 
-aMaterno_elemento.addEventListener("keydown", (e) => {
-  if (e.key === "Tab") {
-    verificarNombre();
-    contador--;
-  }
-});
+//aMaterno_elemento.addEventListener("keydown", (e) => {
+ // if (e.key === "Tab") {
+ //   verificarNombre();
+ //   contador--;
+ // }
+//});
 
-nombres_elemento.addEventListener("keydown", (e) => {
-  if (e.key === "Tab") {
-    verificarNombre();
-    contador--;
-  }
-});
+//nombres_elemento.addEventListener("keydown", (e) => {
+//  if (e.key === "Tab") {
+ //   verificarNombre();
+ //   contador--;
+  //}
+//});
 
 
 telefono_elemento.addEventListener("keydown", (e) => {
